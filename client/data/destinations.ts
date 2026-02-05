@@ -31,7 +31,7 @@ export const destinations: Destination[] = [
     },
     duration: "3–5 days",
     image:
-      "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&h=600&fit=crop",
+      "https://images.pexels.com/photos/32262470/pexels-photo-32262470.jpeg?w=800&h=600&fit=crop",
     attractions: [
       "Baga Beach",
       "Palolem Beach",
@@ -56,7 +56,7 @@ export const destinations: Destination[] = [
     },
     duration: "4–6 days",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.pexels.com/photos/31776512/pexels-photo-31776512.jpeg?w=800&h=600&fit=crop",
     attractions: [
       "Rohtang Pass",
       "Solang Valley",
@@ -81,7 +81,7 @@ export const destinations: Destination[] = [
     },
     duration: "2–3 days",
     image:
-      "https://images.unsplash.com/photo-1517841905240-472988babfca?w=800&h=600&fit=crop",
+      "https://images.pexels.com/photos/16534739/pexels-photo-16534739.jpeg?w=800&h=600&fit=crop",
     attractions: [
       "City Palace",
       "Hawa Mahal (Palace of Winds)",
@@ -106,7 +106,7 @@ export const destinations: Destination[] = [
     },
     duration: "2–4 days",
     image:
-      "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?w=800&h=600&fit=crop",
+      "https://images.pexels.com/photos/27000210/pexels-photo-27000210.jpeg?w=800&h=600&fit=crop",
     attractions: [
       "Promenade Beach",
       "Paradise Beach",
@@ -131,7 +131,7 @@ export const destinations: Destination[] = [
     },
     duration: "3–4 days",
     image:
-      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      "https://images.pexels.com/photos/35491392/pexels-photo-35491392.jpeg?w=800&h=600&fit=crop",
     attractions: [
       "Tea Plantations",
       "Anamudi Peak",

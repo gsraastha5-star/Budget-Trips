@@ -66,7 +66,9 @@ export default function DestinationDetail() {
             </p>
           </div>
           <div className="bg-gradient-to-br from-travel-50 to-nature-50 p-6 rounded-lg border border-travel-100 h-fit sticky top-24">
-            <h3 className="text-lg font-bold text-travel-700 mb-4">Quick Info</h3>
+            <h3 className="text-lg font-bold text-travel-700 mb-4">
+              Quick Info
+            </h3>
             <div className="space-y-4">
               <div>
                 <p className="text-xs font-semibold text-travel-700 uppercase tracking-wide mb-1">
@@ -100,19 +102,25 @@ export default function DestinationDetail() {
               <h3 className="text-lg font-semibold text-travel-700 mb-2">
                 Transport
               </h3>
-              <p className="text-gray-700">{destination.budgetBreakdown.travel}</p>
+              <p className="text-gray-700">
+                {destination.budgetBreakdown.travel}
+              </p>
             </div>
             <div className="bg-green-50 border-l-4 border-nature-500 p-6 rounded">
               <h3 className="text-lg font-semibold text-travel-700 mb-2">
                 Stay
               </h3>
-              <p className="text-gray-700">{destination.budgetBreakdown.stay}</p>
+              <p className="text-gray-700">
+                {destination.budgetBreakdown.stay}
+              </p>
             </div>
             <div className="bg-orange-50 border-l-4 border-orange-500 p-6 rounded">
               <h3 className="text-lg font-semibold text-travel-700 mb-2">
                 Food
               </h3>
-              <p className="text-gray-700">{destination.budgetBreakdown.food}</p>
+              <p className="text-gray-700">
+                {destination.budgetBreakdown.food}
+              </p>
             </div>
           </div>
         </section>

@@ -8,20 +8,32 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 bg-white shadow-sm">
       <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2 font-bold text-xl text-travel-700 hover:text-travel-600 transition">
+        <Link
+          to="/"
+          className="flex items-center gap-2 font-bold text-xl text-travel-700 hover:text-travel-600 transition"
+        >
           <MapPin className="w-6 h-6" />
           Budget Trips
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link to="/" className="text-gray-700 hover:text-travel-600 transition font-medium">
+          <Link
+            to="/"
+            className="text-gray-700 hover:text-travel-600 transition font-medium"
+          >
             Home
           </Link>
-          <Link to="/budget-plans" className="text-gray-700 hover:text-travel-600 transition font-medium">
+          <Link
+            to="/budget-plans"
+            className="text-gray-700 hover:text-travel-600 transition font-medium"
+          >
             Budget Plans
           </Link>
-          <Link to="/contact" className="bg-travel-500 hover:bg-travel-600 text-white px-6 py-2 rounded-lg transition font-medium">
+          <Link
+            to="/contact"
+            className="bg-travel-500 hover:bg-travel-600 text-white px-6 py-2 rounded-lg transition font-medium"
+          >
             Plan a Trip
           </Link>
         </div>
@@ -91,7 +103,10 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/budget-plans" className="hover:text-white transition">
+                <Link
+                  to="/budget-plans"
+                  className="hover:text-white transition"
+                >
                   Budget Plans
                 </Link>
               </li>

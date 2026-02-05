@@ -22,7 +22,8 @@ const NotFound = () => {
           Oops! Destination Not Found
         </p>
         <p className="text-gray-600 mb-8">
-          Looks like you've wandered off the map. This page doesn't exist, but don't worry—there are plenty of amazing destinations waiting for you!
+          Looks like you've wandered off the map. This page doesn't exist, but
+          don't worry—there are plenty of amazing destinations waiting for you!
         </p>
         <Link
           to="/"

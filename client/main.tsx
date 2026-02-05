@@ -16,5 +16,5 @@ createRoot(document.getElementById("root")!).render(
       <Sonner />
       <App />
     </TooltipProvider>
-  </QueryClientProvider>
+  </QueryClientProvider>,
 );

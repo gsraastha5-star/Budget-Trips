@@ -1,5 +1,13 @@
 import { useState } from "react";
-import { MapPin, Clock, DollarSign, Send, Instagram, Twitter, Mail } from "lucide-react";
+import {
+  MapPin,
+  Clock,
+  DollarSign,
+  Send,
+  Instagram,
+  Twitter,
+  Mail,
+} from "lucide-react";
 
 // ============================================================================
 // Hero Section
@@ -22,7 +30,8 @@ function HeroSection() {
           Explore Budget Trips
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Discover affordable travel destinations tailored for students. From weekend getaways to week-long adventures—all within your budget.
+          Discover affordable travel destinations tailored for students. From
+          weekend getaways to week-long adventures—all within your budget.
         </p>
         <button className="bg-travel-500 hover:bg-travel-600 text-white font-semibold py-4 px-8 rounded-lg text-lg transition duration-300 shadow-lg hover:shadow-xl">
           Explore Budget Trips
@@ -192,7 +201,9 @@ function BudgetPlanCard({ plan }: { plan: BudgetPlan }) {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 border-t-4 border-nature-500">
       <div className="p-6">
-        <h3 className="text-2xl font-bold text-travel-700 mb-2">{plan.range}</h3>
+        <h3 className="text-2xl font-bold text-travel-700 mb-2">
+          {plan.range}
+        </h3>
         <p className="text-travel-600 font-semibold mb-6 text-sm">
           {plan.label}
         </p>
@@ -341,7 +352,7 @@ function ContactSection() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -351,7 +362,13 @@ function ContactSection() {
     e.preventDefault();
     // Simulate form submission
     setSubmitStatus("sent");
-    setFormData({ name: "", email: "", destination: "", budget: "", message: "" });
+    setFormData({
+      name: "",
+      email: "",
+      destination: "",
+      budget: "",
+      message: "",
+    });
     setTimeout(() => setSubmitStatus(null), 3000);
   };
 

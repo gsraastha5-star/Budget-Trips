@@ -78,7 +78,10 @@ function BudgetPlanCard({
             </p>
             <ul className="space-y-2">
               {plan.included.map((item, idx) => (
-                <li key={idx} className="flex items-start gap-2 text-gray-700 text-sm">
+                <li
+                  key={idx}
+                  className="flex items-start gap-2 text-gray-700 text-sm"
+                >
                   <span className="text-travel-500 font-bold mt-0.5">✓</span>
                   <span>{item}</span>
                 </li>
@@ -162,7 +165,9 @@ export default function BudgetPlans() {
                   <td className="p-4 text-gray-700">4-7 days</td>
                 </tr>
                 <tr className="border-b border-gray-200 hover:bg-gray-50">
-                  <td className="p-4 font-semibold text-gray-800">Accommodation</td>
+                  <td className="p-4 font-semibold text-gray-800">
+                    Accommodation
+                  </td>
                   <td className="p-4 text-gray-700">Dorms & Hostels</td>
                   <td className="p-4 text-gray-700">Budget Hotels</td>
                   <td className="p-4 text-gray-700">3-star Hotels</td>

@@ -15,7 +15,7 @@ export default function Contact() {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
+    >,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -122,7 +122,9 @@ export default function Contact() {
                 >
                   <option value="">Select your budget</option>
                   <option value="5k-8k">₹5,000–₹8,000 (Weekend Trip)</option>
-                  <option value="8k-12k">₹8,000–₹12,000 (Comfort Adventure)</option>
+                  <option value="8k-12k">
+                    ₹8,000–₹12,000 (Comfort Adventure)
+                  </option>
                   <option value="12k-15k">₹12,000–₹15,000 (Premium)</option>
                   <option value="custom">Custom/Flexible</option>
                 </select>
@@ -153,7 +155,8 @@ export default function Contact() {
             </button>
 
             <p className="text-center text-gray-600 text-sm mt-4">
-              We'll get back to you within 24 hours with personalized recommendations!
+              We'll get back to you within 24 hours with personalized
+              recommendations!
             </p>
           </form>
         ) : (
@@ -184,9 +187,7 @@ export default function Contact() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-nature-600 font-bold mt-1">2.</span>
-                  <span>
-                    Create a customized itinerary with cost breakdown
-                  </span>
+                  <span>Create a customized itinerary with cost breakdown</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-nature-600 font-bold mt-1">3.</span>
@@ -196,9 +197,7 @@ export default function Contact() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-nature-600 font-bold mt-1">4.</span>
-                  <span>
-                    Provide booking assistance and travel tips
-                  </span>
+                  <span>Provide booking assistance and travel tips</span>
                 </li>
               </ul>
             </div>
@@ -220,7 +219,8 @@ export default function Contact() {
               100% Student-Friendly
             </h3>
             <p className="text-gray-700 text-sm">
-              We understand student budgets. No hidden charges, just honest advice.
+              We understand student budgets. No hidden charges, just honest
+              advice.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">

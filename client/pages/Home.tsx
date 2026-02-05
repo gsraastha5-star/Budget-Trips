@@ -50,7 +50,11 @@ function HeroSection({ onExploreClick }: { onExploreClick: () => void }) {
 // ============================================================================
 // Destination Cards Section
 // ============================================================================
-function DestinationCard({ destination }: { destination: typeof destinations[0] }) {
+function DestinationCard({
+  destination,
+}: {
+  destination: (typeof destinations)[0];
+}) {
   return (
     <Link
       to={`/destination/${destination.slug}`}
@@ -124,7 +128,13 @@ interface TipWithModal {
   fullDesc: string;
 }
 
-function TravelTipCard({ tip, onReadMore }: { tip: TipWithModal; onReadMore: () => void }) {
+function TravelTipCard({
+  tip,
+  onReadMore,
+}: {
+  tip: TipWithModal;
+  onReadMore: () => void;
+}) {
   return (
     <div className="bg-gradient-to-br from-travel-50 to-nature-50 p-6 rounded-lg border border-travel-100 hover:shadow-md transition-shadow duration-300 flex flex-col">
       <h3 className="text-lg font-bold text-travel-700 mb-2">{tip.title}</h3>
@@ -189,7 +199,8 @@ function CTASection() {
           Ready to Start Your Budget Journey?
         </h2>
         <p className="text-travel-100 text-lg mb-8">
-          Get personalized trip recommendations and budget breakdowns from our experts
+          Get personalized trip recommendations and budget breakdowns from our
+          experts
         </p>
         <Link
           to="/contact"

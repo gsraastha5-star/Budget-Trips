@@ -15,7 +15,7 @@ function HeroSection({ onExploreClick }: { onExploreClick: () => void }) {
         className="absolute inset-0 z-0 bg-cover bg-center opacity-30"
         style={{
           backgroundImage:
-            'url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1600&h=900&fit=crop")',
+            'url("https://images.pexels.com/photos/3726469/pexels-photo-3726469.jpeg?w=1600&h=900&fit=crop")',
         }}
       />
 

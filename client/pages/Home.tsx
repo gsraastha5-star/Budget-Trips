@@ -12,10 +12,10 @@ function HeroSection({ onExploreClick }: { onExploreClick: () => void }) {
     <div className="relative h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-travel-100 via-white to-white">
       {/* Background image overlay */}
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center opacity-30"
+        className="absolute inset-0 z-0 bg-cover bg-center opacity-40"
         style={{
           backgroundImage:
-            'url("https://images.pexels.com/photos/3726469/pexels-photo-3726469.jpeg?w=1600&h=900&fit=crop")',
+            'url("https://images.pexels.com/photos/7009459/pexels-photo-7009459.jpeg?w=1600&h=900&fit=crop")',
         }}
       />
 
